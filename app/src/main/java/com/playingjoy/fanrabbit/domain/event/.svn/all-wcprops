@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/domain/event
+END
+SelectGameEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/domain/event/SelectGameEvent.java
+END
+AddFriendEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/domain/event/AddFriendEvent.java
+END
+LoginViewFinishEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/platform/!svn/ver/544/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/domain/event/LoginViewFinishEvent.java
+END
+WechatCodeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/platform/!svn/ver/539/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/domain/event/WechatCodeEvent.java
+END

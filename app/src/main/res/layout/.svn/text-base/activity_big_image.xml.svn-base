@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_black"
+                android:orientation="vertical">
+
+
+
+    <com.playingjoy.fanrabbit.widget.PhotoViewViewPager
+        android:id="@+id/vp_big_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_big_curr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white_color"
+        android:layout_marginBottom="@dimen/margin_30"
+        android:gravity="center"
+        android:text="6/6"
+        android:textSize="@dimen/fonts_18"/>
+    <ImageView
+        android:id="@+id/iv_big_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:src="@drawable/delete_icon"/>
+</RelativeLayout>

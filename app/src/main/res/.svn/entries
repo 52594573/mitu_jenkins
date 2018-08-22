@@ -1,0 +1,73 @@
+8
+
+dir
+675
+http://172.16.1.252/svn/platform/trunk/android/FanRabbitApp/app/src/main/res
+http://172.16.1.252/svn/platform
+
+
+
+2018-04-19T08:01:15.151512Z
+675
+linhuantan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0a198c55-c383-7942-97b8-1e9b43359683
+
+anim
+dir
+
+drawable
+dir
+
+drawable-v24
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+mipmap-anydpi-v26
+dir
+
+mipmap-hdpi
+dir
+
+mipmap-mdpi
+dir
+
+mipmap-xhdpi
+dir
+
+mipmap-xxhdpi
+dir
+
+mipmap-xxxhdpi
+dir
+
+values
+dir
+
+values-v19
+dir
+
+values-v23
+dir
+
+xml
+dir
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_keyword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_search_keyword"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:paddingBottom="@dimen/padding_8"
+    android:paddingLeft="@dimen/padding_16"
+    android:paddingRight="@dimen/padding_16"
+    android:paddingTop="@dimen/padding_8"
+    tools:text="啊啊啊啊啊啊"
+    android:textColor="@color/enable_color"
+    android:textSize="@dimen/fonts_12">
+
+</TextView>

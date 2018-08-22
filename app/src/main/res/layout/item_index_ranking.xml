@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_20"
+        android:paddingEnd="@dimen/padding_0"
+        android:paddingLeft="@dimen/padding_10"
+        android:paddingRight="@dimen/padding_0"
+        android:paddingStart="@dimen/padding_10"
+        android:paddingTop="@dimen/padding_20">
+
+        <TextView
+            android:id="@+id/tv_ranking_order"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/fonts_18"/>
+
+        <ImageView
+            android:id="@+id/iv_ranking_pic"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:src="@drawable/game_icon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_14"
+                android:layout_marginStart="@dimen/margin_14">
+
+                <ImageView
+                    android:id="@+id/iv_ranking_promotion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/promotion"/>
+
+                <TextView
+                    android:id="@+id/tv_ranking_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="宠物小精灵"
+                    android:textColor="@color/main_black"
+                    android:textSize="@dimen/fonts_16"/>
+
+                <TextView
+                    android:id="@+id/tv_ranking_down_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ranking_name"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:text="10万+人下载"
+                    android:textColor="@color/hint_color"
+                    android:textSize="@dimen/fonts_12"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ranking_down_num"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:layout_toLeftOf="@id/iv_ranking_promotion"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_ranking_gifts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:drawableLeft="@drawable/gifts"
+                        android:drawablePadding="@dimen/padding_4"
+                        android:paddingBottom="@dimen/padding_4"
+                        android:paddingTop="@dimen/padding_6"
+                        android:text="礼包"
+                        android:textColor="@color/second_color"
+                        android:textSize="@dimen/fonts_12"/>
+
+                    <TextView
+                        android:id="@+id/tv_ranking_tribe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/tribe"
+                        android:drawablePadding="@dimen/padding_4"
+                        android:paddingBottom="@dimen/padding_4"
+                        android:paddingTop="@dimen/padding_6"
+                        android:text="部落"
+                        android:textColor="@color/second_color"
+                        android:textSize="@dimen/fonts_12"/>
+
+                    <TextView
+                        android:id="@+id/tv_ranking_download"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:drawableLeft="@drawable/download"
+                        android:drawablePadding="@dimen/padding_4"
+                        android:paddingBottom="@dimen/padding_4"
+                        android:paddingTop="@dimen/padding_6"
+                        android:text="下载"
+                        android:textColor="@color/second_color"
+                        android:textSize="@dimen/fonts_12"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/include_line"/>
+</LinearLayout>

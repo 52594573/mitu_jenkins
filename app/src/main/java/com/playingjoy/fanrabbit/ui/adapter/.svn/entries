@@ -1,0 +1,69 @@
+8
+
+dir
+675
+http://172.16.1.252/svn/platform/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter
+http://172.16.1.252/svn/platform
+
+
+
+2018-04-19T08:01:15.151512Z
+675
+linhuantan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0a198c55-c383-7942-97b8-1e9b43359683
+
+BigImageAdapter.java
+file
+
+
+
+
+2018-04-19T08:05:07.763000Z
+24e401a585587784fcef25199fe01fa1
+2018-04-17T10:17:33.338268Z
+635
+linhuantan
+has-props
+
+GiftsDetailRecommendGamesListAdapter.java
+file
+
+
+
+
+2018-04-19T08:05:07.764000Z
+5fbca51297876c1bc0752e0bf6faaab5
+2018-04-08T08:48:58.346663Z
+563
+lianyanshan
+has-props
+
+index
+dir
+
+mine
+dir
+
+search
+dir
+
+share
+dir
+
+tribe
+dir
+

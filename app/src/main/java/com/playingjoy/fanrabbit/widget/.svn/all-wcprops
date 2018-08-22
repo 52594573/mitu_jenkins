@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget
+END
+SimpleNoTitleDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/platform/!svn/ver/499/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/SimpleNoTitleDialog.java
+END
+ImageViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/platform/!svn/ver/498/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/ImageViewHolder.java
+END
+TextDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/TextDrawable.java
+END
+LoadView.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/LoadView.java
+END
+ErrView.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/ErrView.java
+END
+MyTaskTimeProgressBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/MyTaskTimeProgressBar.java
+END
+PhotoViewViewPager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/platform/!svn/ver/635/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/PhotoViewViewPager.java
+END
+MarqueeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/platform/!svn/ver/498/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/MarqueeView.java
+END
+CircularProgressBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/CircularProgressBar.java
+END
+LoadingDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/platform/!svn/ver/537/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/LoadingDialog.java
+END
+ProgressTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/ProgressTextView.java
+END
+FilletProgressBarView.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/platform/!svn/ver/518/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/FilletProgressBarView.java
+END
+BorderImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/BorderImageView.java
+END
+FriendEmptyView.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/platform/!svn/ver/493/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/FriendEmptyView.java
+END
+EmptyView.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/platform/!svn/ver/518/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/widget/EmptyView.java
+END

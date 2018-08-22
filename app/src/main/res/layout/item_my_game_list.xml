@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.playingjoy.fanrabbit.widget.swipeMenu.EasySwipeMenuLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentView="@+id/ll_my_game_content"
+        app:rightMenuView="@+id/ll_my_game_right_menu">
+
+        <LinearLayout
+            android:id="@+id/ll_my_game_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_20"
+            android:paddingEnd="@dimen/padding_0"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_0"
+            android:paddingStart="@dimen/padding_10"
+            android:paddingTop="@dimen/padding_20">
+
+            <ImageView
+                android:id="@+id/iv_my_game_pic"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:src="@drawable/game_icon"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_14"
+                    android:layout_marginStart="@dimen/margin_14">
+
+                    <com.playingjoy.fanrabbit.widget.ProgressTextView
+                        android:id="@+id/ptv_my_game_download"
+                        android:layout_width="72dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:drawableLeft="@drawable/pause"
+                        android:drawablePadding="@dimen/padding_6"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_download"
+                        android:textColor="@color/main_black"
+                        android:textSize="@dimen/fonts_12"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_my_game_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="宠物小精灵"
+                        android:textColor="@color/main_black"
+                        android:textSize="@dimen/fonts_16"/>
+
+                    <TextView
+                        android:id="@+id/tv_my_game_down_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_my_game_name"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:text="10万+人下载"
+                        android:textColor="@color/hint_color"
+                        android:textSize="@dimen/fonts_12"/>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_my_game_down_num"
+                        android:layout_toLeftOf="@id/ptv_my_game_download"
+                        android:layout_toStartOf="@id/ptv_my_game_download"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_my_game_gifts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/gifts"
+                            android:drawablePadding="@dimen/padding_4"
+                            android:drawableStart="@drawable/gifts"
+                            android:paddingBottom="@dimen/padding_4"
+                            android:paddingTop="@dimen/padding_10"
+                            android:text="@string/text_gift"
+                            android:textColor="@color/second_color"
+                            android:textSize="@dimen/fonts_12"/>
+
+                        <TextView
+                            android:id="@+id/tv_my_game_tribe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:drawableLeft="@drawable/tribe"
+                            android:drawablePadding="@dimen/padding_4"
+                            android:drawableStart="@drawable/tribe"
+                            android:paddingBottom="@dimen/padding_4"
+                            android:paddingTop="@dimen/padding_10"
+                            android:text="@string/text_tribe"
+                            android:textColor="@color/second_color"
+                            android:textSize="@dimen/fonts_12"/>
+
+                        <TextView
+                            android:id="@+id/tv_my_game_download"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:drawableLeft="@drawable/download"
+                            android:drawablePadding="@dimen/padding_4"
+                            android:drawableStart="@drawable/download"
+                            android:paddingBottom="@dimen/padding_4"
+                            android:paddingTop="@dimen/padding_10"
+                            android:text="@string/text_download"
+                            android:textColor="@color/second_color"
+                            android:textSize="@dimen/fonts_12"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_my_game_right_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_my_game_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/right_delete_color"
+                android:gravity="center"
+                android:paddingEnd="@dimen/padding_30"
+                android:paddingLeft="@dimen/padding_30"
+                android:paddingRight="@dimen/padding_30"
+                android:paddingStart="@dimen/padding_30"
+                android:text="@string/text_delete"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_14"/>
+        </LinearLayout>
+    </com.playingjoy.fanrabbit.widget.swipeMenu.EasySwipeMenuLayout>
+
+    <include layout="@layout/include_line"/>
+</LinearLayout>

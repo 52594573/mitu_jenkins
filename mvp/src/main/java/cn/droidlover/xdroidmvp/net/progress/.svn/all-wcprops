@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/progress
+END
+ProResponseBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/progress/ProResponseBody.java
+END
+ProgressHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/progress/ProgressHelper.java
+END
+ProRequestBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/progress/ProRequestBody.java
+END
+ProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/progress/ProgressListener.java
+END

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll_tribe_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_6"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_tribe_title_back"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_14"
+            android:layout_marginLeft="@dimen/margin_14"
+            android:layout_marginRight="@dimen/margin_14"
+            android:layout_marginStart="@dimen/margin_14"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_tribe_title_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:text="君临天下部落"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/fonts_18"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/fl_tribe_title_message"
+                android:layout_width="30dp"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/group_chat_message"/>
+
+                <TextView
+                    android:id="@+id/tv_tribe_title_message_num"
+                    android:padding="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/bg_red_point"
+                    android:text="18"
+                    android:textColor="@color/white_color"
+                    android:textSize="@dimen/fonts_10"/>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv_tribe_title_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginStart="@dimen/margin_10"
+                android:src="@drawable/tribe_title_more"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</merge>

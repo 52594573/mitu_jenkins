@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_game_icon"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:src="@drawable/game_icon" />
+
+    <TextView
+        android:id="@+id/tv_game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_10"
+        tools:text="王者荣耀" />
+</LinearLayout>

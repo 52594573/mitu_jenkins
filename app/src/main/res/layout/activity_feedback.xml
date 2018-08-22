@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/user_info_bg_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_14">
+
+        <EditText
+            android:id="@+id/et_feedback_str"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="@string/text_give_us_your_feedback"
+            android:textColor="@color/second_color"
+            android:textColorHint="@color/border_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_upload_pic"
+                android:textColorHint="@color/normal_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <TextView
+                android:id="@+id/tv_feedback_pic_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:layout_marginStart="@dimen/margin_8"
+                android:text="@string/text_pic_num_tips"
+                android:textColorHint="@color/enable_color"
+                android:textSize="@dimen/fonts_15"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10">
+
+            <com.playingjoy.fanrabbit.widget.BorderImageView
+                android:id="@+id/iv_feedback_pic_1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/pic_add_"/>
+
+            <com.playingjoy.fanrabbit.widget.BorderImageView
+                android:id="@+id/iv_feedback_pic_2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                android:layout_marginStart="@dimen/margin_10"
+                />
+
+            <com.playingjoy.fanrabbit.widget.BorderImageView
+                android:id="@+id/iv_feedback_pic_3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                />
+
+            <com.playingjoy.fanrabbit.widget.BorderImageView
+                android:id="@+id/iv_feedback_pic_4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:paddingEnd="@dimen/padding_14"
+        android:paddingLeft="@dimen/padding_14"
+        android:paddingRight="@dimen/padding_14"
+        android:paddingStart="@dimen/padding_14">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/text_qq_account"
+            android:textColor="@color/normal_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <EditText
+            android:id="@+id/et_feedback_qq"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="end|center_vertical"
+            android:hint="@string/text_input_qq_number"
+            android:inputType="number"
+            android:lines="1"
+            android:textColorHint="@color/border_color"
+            android:textSize="@dimen/fonts_15"/>
+    </RelativeLayout>
+
+    <include layout="@layout/include_line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/white_color"
+        android:paddingEnd="@dimen/padding_14"
+        android:paddingLeft="@dimen/padding_14"
+        android:paddingRight="@dimen/padding_14"
+        android:paddingStart="@dimen/padding_14">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/text_mobile_number"
+            android:textColor="@color/normal_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <EditText
+            android:id="@+id/et_feedback_phone"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="end|center_vertical"
+            android:hint="@string/text_input_mobile_number"
+            android:inputType="phone"
+            android:lines="1"
+            android:textColorHint="@color/border_color"
+            android:textSize="@dimen/fonts_15"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_30"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/tv_feedback_submit"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginEnd="@dimen/margin_18"
+            android:layout_marginLeft="@dimen/margin_18"
+            android:layout_marginRight="@dimen/margin_18"
+            android:layout_marginStart="@dimen/margin_18"
+            android:background="@drawable/bg_fillet_gifts_btn"
+            android:gravity="center"
+            android:text="@string/text_submit"
+            android:textColor="@color/main_black"/>
+    </LinearLayout>
+</LinearLayout>

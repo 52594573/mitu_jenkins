@@ -1,0 +1,70 @@
+8
+
+dir
+675
+http://172.16.1.252/svn/platform/trunk/android/FanRabbitApp/easeui/src/main/res
+http://172.16.1.252/svn/platform
+
+
+
+2018-04-10T10:22:34.479454Z
+583
+lianyanshan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0a198c55-c383-7942-97b8-1e9b43359683
+
+anim
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+values
+dir
+
+values-large
+dir
+
+values-ru-rRU
+dir
+
+values-v11
+dir
+
+values-w820dp
+dir
+
+values-xlarge
+dir
+
+values-zh-rCN
+dir
+

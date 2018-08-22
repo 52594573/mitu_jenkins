@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/armeabi
+END
+liblocSDK7.so
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/armeabi/liblocSDK7.so
+END
+libBaiduMapSDK_base_v4_0_0.so
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/armeabi/libBaiduMapSDK_base_v4_0_0.so
+END
+libBaiduMapSDK_util_v4_0_0.so
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/armeabi/libBaiduMapSDK_util_v4_0_0.so
+END
+libBaiduMapSDK_map_v4_0_0.so
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/armeabi/libBaiduMapSDK_map_v4_0_0.so
+END

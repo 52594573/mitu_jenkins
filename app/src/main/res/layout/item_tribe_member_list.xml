@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_10"
+    android:layout_marginRight="@dimen/margin_10"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_member_pic"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:src="@drawable/temp_pic" />
+
+    <TextView
+        android:id="@+id/iv_member_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_6"
+        android:gravity="center"
+        android:text="龙猫"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/fonts_14" />
+
+    <TextView
+        android:id="@+id/iv_member_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_6"
+        android:background="@drawable/bg_btn_red_stroke_radius_10"
+        android:paddingBottom="@dimen/padding_2"
+        android:paddingLeft="@dimen/padding_4"
+        android:paddingRight="@dimen/padding_4"
+        android:paddingTop="@dimen/padding_2"
+        android:textColor="@color/red_color"
+        android:text="会长"
+        android:textSize="@dimen/fonts_10" />
+</LinearLayout>

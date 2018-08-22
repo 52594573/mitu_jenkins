@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/imageloader
+END
+ILoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/imageloader/ILoader.java
+END
+LoadCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/imageloader/LoadCallback.java
+END
+GlideLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/imageloader/GlideLoader.java
+END
+ILFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/imageloader/ILFactory.java
+END

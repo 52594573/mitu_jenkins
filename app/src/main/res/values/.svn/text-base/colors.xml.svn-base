@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFe12f</color>
+    <color name="colorPrimaryDark">#FFe12f</color>
+    <color name="colorAccent">#FFe12f</color>
+    <!--背景颜色-->
+    <color name="bg_color">#fafafa</color>
+    <!--主体颜色-->
+    <color name="main_color">#FFe12f</color>
+    <!--黑色颜色-->
+    <color name="main_black">#000000</color>
+    <!--普通黑色字体-->
+    <color name="normal_color">#1a1a1a</color>
+    <!--更浅一层次的黑色字体-->
+    <color name="second_color">#333333</color>
+    <!--hint颜色-->
+    <color name="hint_color">#999999</color>
+    <!--不可点击的颜色-->
+    <color name="enable_color">#808080</color>
+    <!--线条颜色-->
+    <color name="border_color">#cccccc</color>
+    <!--透明颜色-->
+    <color name="transparent_color">#00000000</color>
+    <!--加载框背景色-->
+    <color name="loading_dialog_bg_color">#bb000000</color>
+    <!--白色颜色-->
+    <color name="white_color">#ffffff</color>
+    <!--红色颜色-->
+    <color name="red_color">#f33738</color>
+    <!--黄色字体颜色-->
+    <color name="yellow_color">#ffbc07</color>
+    <!--右滑菜单拒绝色-->
+    <color name="right_refuse_color">#f2f2f2</color>
+    <!--右滑菜单删除色-->
+    <color name="right_delete_color">#d9d9d9</color>
+    <!--搜索页面搜索历史关键字背景颜色-->
+    <color name="search_history_keyword_bg">#f2f2f2</color>
+
+    <!--推荐部落排名字体颜色-->
+    <color name="tribe_rank_first">#f35454</color>
+    <color name="tribe_rank_second">#f6784c</color>
+    <color name="tribe_rank_third">#ffbd2f</color>
+    <color name="tribe_rank_other">#999</color>
+    <!--灰色背景-->
+    <color name="gray_bg">#F6F6F8</color>
+
+    <color name="blue_4787fc">#4787FC</color>
+    <color name="gray_e6">#e6e6e6</color>
+    <!--个人中心 查看详情更多字体颜色-->
+    <color name="mine_to_see_more_origin">#F37C1D</color>
+    <!--紫砖颜色-->
+    <color name="purple_diamond">#9F7EE8</color>
+    <!--用户信息背景颜色-->
+    <color name="user_info_bg_color">#f3f3f3</color>
+    <!--我的任务时间颜色-->
+    <color name="my_task_time_red_color">#E11010</color>
+    <!--我的任务exp颜色-->
+    <color name="my_task_exp_blue">#16BFF7</color>
+    <!--部落详情 部落签名-->
+    <color name="tribe_desc_color">#BFA300</color>
+    <!--部落详情 字数颜色-->
+    <color name="tribe_num_color">#FFB806</color>
+    <!--礼包类型颜色(个人)-->
+    <color name="gifts_type_color_personal">#FA8B0B</color>
+    <!--礼包类型颜色(部落)-->
+    <color name="gifts_type_color_tribe">#1C8BD8</color>
+</resources>

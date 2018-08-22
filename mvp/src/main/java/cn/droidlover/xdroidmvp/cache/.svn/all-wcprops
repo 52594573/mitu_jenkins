@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/cache
+END
+DiskLruCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/cache/DiskLruCache.java
+END
+ICache.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/cache/ICache.java
+END
+SharedPref.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/cache/SharedPref.java
+END
+DiskCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/cache/DiskCache.java
+END
+MemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/cache/MemoryCache.java
+END

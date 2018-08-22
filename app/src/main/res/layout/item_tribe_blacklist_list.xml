@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/cb_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:button="@drawable/selector_rect_check_box" />
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            tools:src="@drawable/game_icon" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/fonts_15"
+            tools:text="@string/text_tribe_member" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/fonts_11"
+            tools:text="2018-4-18" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/include_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+</LinearLayout>

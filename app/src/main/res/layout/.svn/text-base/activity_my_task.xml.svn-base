@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/tv_online_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="达到下面在线时间，可自动增加相应的经验值，每日最高增加110经验"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_11" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_gifts_detail_predestine_phone"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="26dp">
+
+                <com.playingjoy.fanrabbit.widget.MyTaskTimeProgressBar
+                    android:id="@+id/pb_online"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:curValue="0" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/text_novice_task"
+                android:textColor="@color/main_black"
+                android:textSize="16sp" />
+
+            <cn.droidlover.xrecyclerview.XRecyclerView
+                android:id="@+id/xlv_novice_task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_gifts_detail_predestine_phone" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/text_tribal_task"
+                android:textColor="@color/main_black"
+                android:textSize="16sp" />
+
+            <cn.droidlover.xrecyclerview.XRecyclerView
+                android:id="@+id/xlv_tribal_task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_gifts_detail_predestine_phone" />
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

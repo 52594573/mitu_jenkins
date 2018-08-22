@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_monkey_king" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="创建群"
+        android:id="@+id/bt_tribe_create_group"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="分享好友"
+        android:id="@+id/bt_tribe_share"/>
+</LinearLayout>

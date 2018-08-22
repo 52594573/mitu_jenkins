@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_10"
+        android:paddingTop="@dimen/padding_10">
+
+        <ImageView
+            android:id="@+id/tv_un_read_pic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/game_icon"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_un_read_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginStart="@dimen/margin_10"
+                android:text="123木头人"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_14"/>
+
+            <TextView
+                android:id="@+id/tv_un_read_online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginStart="@dimen/margin_16"
+                android:text="101"
+                android:textColor="@color/yellow_color"
+                android:textSize="@dimen/fonts_12"/>
+
+            <TextView
+                android:id="@+id/tv_un_read_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/920"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_12"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_un_read_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_fillet_unread_type"
+            android:padding="@dimen/padding_4"
+            android:text="99+未读"
+            android:textColor="@color/red_color"
+            android:textSize="@dimen/fonts_10"/>
+    </LinearLayout>
+
+    <include layout="@layout/include_line"/>
+</LinearLayout>

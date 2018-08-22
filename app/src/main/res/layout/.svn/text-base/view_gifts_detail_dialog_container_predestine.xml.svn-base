@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_gifts_detail_predestine_phone"
+        android:drawableLeft="@drawable/ic_phone_gary"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_input_your_phone_number"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColorHint="@color/border_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_60"
+        android:layout_marginTop="15dp"
+        android:text="礼包上线后，将通过短信通知您"
+        android:textColor="@color/hint_color"
+        android:textSize="@dimen/fonts_14" />
+</LinearLayout>

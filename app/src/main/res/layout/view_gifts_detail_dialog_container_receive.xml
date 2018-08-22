@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_rush_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/hint_color"
+        android:textSize="14sp"
+        tools:text="已淘50次" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_gifts_detail_predestine_phone"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="礼包码"
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/fonts_14" />
+
+        <TextView
+            android:id="@+id/tv_gifts_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="11dp"
+            android:layout_weight="1"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_14"
+            tools:text="S2SACZ234213" />
+
+        <TextView
+            android:id="@+id/tv_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_copy"
+            android:textColor="@color/yellow_color"
+            android:textSize="@dimen/fonts_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/bg_gray_oval"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white_color"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="兑换码已存入个人中心-我的礼包"
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/fonts_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_number_2"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/bg_gray_oval"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_second_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_number_2"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_number_2"
+                android:text="安装游戏就能使用兑换码换取礼包。"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_14" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_third_tip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_60"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_number_3"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/bg_gray_oval"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/white_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_third_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_number_3"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_number_3"
+                android:text="礼包码24小时后自动进入淘号库，请尽快使用"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_14" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

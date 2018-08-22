@@ -1,0 +1,59 @@
+8
+
+dir
+675
+http://172.16.1.252/svn/platform/trunk/android/FanRabbitApp/lfilepickerlibrary/src/main/java/com/leon/lfilepickerlibrary
+http://172.16.1.252/svn/platform
+
+
+
+2018-04-08T08:48:58.346663Z
+563
+lianyanshan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0a198c55-c383-7942-97b8-1e9b43359683
+
+LFilePicker.java
+file
+
+
+
+
+2018-04-19T08:05:08.962000Z
+8b02dde0e9f3ce65eff3ddea968a3e1f
+2018-04-03T11:31:03.104039Z
+546
+lianyanshan
+has-props
+
+adapter
+dir
+
+filter
+dir
+
+model
+dir
+
+ui
+dir
+
+utils
+dir
+
+widget
+dir
+

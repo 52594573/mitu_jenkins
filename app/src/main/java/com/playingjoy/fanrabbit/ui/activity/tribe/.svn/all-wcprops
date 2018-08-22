@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe
+END
+TribeAddedRecordsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeAddedRecordsActivity.java
+END
+TribeDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeDetailActivity.java
+END
+TribeBlacklistActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeBlacklistActivity.java
+END
+SelectGameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/SelectGameActivity.java
+END
+TransferTribeSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TransferTribeSearchActivity.java
+END
+TribeMemberManagementActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeMemberManagementActivity.java
+END
+InviteActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/InviteActivity.java
+END
+TribeGameSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeGameSearchActivity.java
+END
+TribeAddedRecordsSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeAddedRecordsSearchActivity.java
+END
+TribeBlacklistSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeBlacklistSearchActivity.java
+END
+TribeShopActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeShopActivity.java
+END
+CreateGroupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/CreateGroupActivity.java
+END
+TransferTribeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TransferTribeActivity.java
+END
+TribeMemberManagementSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/activity/tribe/TribeMemberManagementSearchActivity.java
+END

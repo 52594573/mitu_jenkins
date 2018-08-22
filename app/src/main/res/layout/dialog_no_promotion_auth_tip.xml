@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_radius"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_30"
+        android:layout_marginTop="@dimen/margin_20"
+        android:gravity="center"
+        android:text="您还未申请推广员"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:drawableLeft="@drawable/ic_promotion_tip_yellow_start"
+        android:drawablePadding="7dp"
+        android:text="推广员特权"
+        android:textColor="@color/yellow_color"
+        android:textSize="@dimen/fonts_14" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_14"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/bg_gray_oval"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white_color"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="认证后推广游戏可以提成玩家消费"
+            android:textColor="@color/border_color"
+            android:textSize="@dimen/fonts_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_14"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_14"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/bg_gray_oval"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white_color"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="可发展下级推广员"
+            android:textColor="@color/border_color"
+            android:textSize="@dimen/fonts_14" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/border_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_left_btn"
+            android:text="@string/text_cancel"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_right_btn"
+            android:text="@string/text_go_apply"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15" />
+    </LinearLayout>
+</LinearLayout>

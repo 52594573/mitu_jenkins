@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/user_info_bg_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/margin_10"
+        android:id="@+id/et_desc_str"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:padding="@dimen/padding_16"
+        android:background="@color/white_color"
+        android:gravity="top"
+        android:hint="@string/text_input_desc"
+        android:textColor="@color/normal_color"
+        android:textSize="@dimen/fonts_16"/>
+</LinearLayout>

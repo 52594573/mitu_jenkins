@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/platform/!svn/ver/546/trunk/android/FanRabbitApp/easeui/src/main/res/drawable
+END
+ease_btn_cancel_bj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_btn_cancel_bj.xml
+END
+ease_btn_blue_normal_shape.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_btn_blue_normal_shape.xml
+END
+ease_btn_cancel_normal_shape.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_btn_cancel_normal_shape.xml
+END
+ease_chat_press_speak_btn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_chat_press_speak_btn.xml
+END
+ease_recording_hint_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/platform/!svn/ver/546/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_recording_hint_bg.xml
+END
+ease_mm_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_mm_listitem.xml
+END
+ease_mm_listitem_grey.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_mm_listitem_grey.xml
+END
+ease_chatto_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_chatto_bg.xml
+END
+ease_msg_state_failed_resend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_msg_state_failed_resend.xml
+END
+voice_from_icon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/voice_from_icon.xml
+END
+ease_chat_send_btn_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_chat_send_btn_selector.xml
+END
+ease_timestampe_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/546/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_timestampe_bg.xml
+END
+ease_sidebar_background_pressed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_sidebar_background_pressed.xml
+END
+ease_chatting_setmode_keyboard_btn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_chatting_setmode_keyboard_btn.xml
+END
+ease_search_clear.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_search_clear.xml
+END
+ease_recording_text_hint_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_recording_text_hint_bg.xml
+END
+recall_message_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/recall_message_bg.xml
+END
+ease_chatting_setmode_voice_btn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_chatting_setmode_voice_btn.xml
+END
+ease_type_select_btn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_type_select_btn.xml
+END
+ease_voice_unread.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_voice_unread.xml
+END
+ease_btn_blue_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_btn_blue_selector.xml
+END
+voice_to_icon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/voice_to_icon.xml
+END
+ease_chatfrom_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_chatfrom_bg.xml
+END
+bg_stroke.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platform/!svn/ver/546/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/bg_stroke.xml
+END
+ease_common_tab_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_common_tab_bg.xml
+END
+ease_btn_blue_pressed_shape.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_btn_blue_pressed_shape.xml
+END
+ease_btn_cancel_pressed_shape.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_btn_cancel_pressed_shape.xml
+END
+ease_chat_location_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_chat_location_selector.xml
+END
+ease_edit_text_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/res/drawable/ease_edit_text_bg.xml
+END

@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomDialog" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@color/transparent_color</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:background">@color/transparent_color</item>
+        <!-- 背景色 -->
+        <item name="android:windowBackground">@color/transparent_color</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!--hint style-->
+    <style name="hint_style">
+        <item name="android:textColor">@color/second_color</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:textSize">@dimen/fonts_14</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <!--首页的底部radioButton的基础样式-->
+    <style name="base_radio_button">
+        <item name="android:drawablePadding">@dimen/padding_2</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/sl_main_menu_font_color</item>
+        <item name="android:layout_marginTop">@dimen/margin_4</item>
+        <item name="android:layout_marginBottom">@dimen/margin_2</item>
+        <item name="android:textSize">@dimen/fonts_10</item>
+    </style>
+    <!--游戏标签的style-->
+    <style name="game_tag">
+        <item name="android:layout_marginTop">@dimen/margin_6</item>
+        <item name="android:background">@drawable/bg_fillet_game_type</item>
+        <item name="android:textSize">@dimen/fonts_10</item>
+        <item name="android:textColor">@color/yellow_color</item>
+        <item name="android:layout_marginLeft">@dimen/margin_2</item>
+        <item name="android:layout_marginRight">@dimen/margin_2</item>
+        <item name="android:paddingTop">@dimen/padding_2</item>
+        <item name="android:paddingBottom">@dimen/padding_2</item>
+        <item name="android:paddingLeft">@dimen/padding_4</item>
+        <item name="android:paddingRight">@dimen/padding_4</item>
+    </style>
+
+    <style name="TabLayoutTextSizeStyle">
+        <item name="android:textSize">@dimen/fonts_16</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="SearchRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/search_tribe_rating_bar</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxHeight">15dp</item>
+    </style>
+
+    <!--分享弹窗的基本样式   其他弹窗也可以使用这个样式-->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item><!--动画-->
+    </style>
+    <!--分享弹窗的动画样式-->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/bottom_anim_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_anim_dialog_out</item>
+    </style>
+</resources>

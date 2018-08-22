@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/563/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/utils
+END
+EaseLoadLocalBigImgTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/utils/EaseLoadLocalBigImgTask.java
+END
+EaseUserUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/platform/!svn/ver/563/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/utils/EaseUserUtils.java
+END
+EaseCommonUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/utils/EaseCommonUtils.java
+END
+EaseSmileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/utils/EaseSmileUtils.java
+END
+EaseImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/utils/EaseImageUtils.java
+END

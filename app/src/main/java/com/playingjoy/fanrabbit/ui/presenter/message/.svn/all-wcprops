@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/message
+END
+MyGroupChatPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/message/MyGroupChatPresenter.java
+END
+MessageCenterPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/message/MessageCenterPresenter.java
+END
+MyGameListPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/message/MyGameListPresenter.java
+END
+MyGamePresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/message/MyGamePresenter.java
+END
+NewFriendsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/message/NewFriendsPresenter.java
+END

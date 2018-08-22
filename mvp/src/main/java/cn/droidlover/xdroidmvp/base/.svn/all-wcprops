@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/base
+END
+SimpleListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/base/SimpleListAdapter.java
+END
+XListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/base/XListAdapter.java
+END
+XFragmentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/base/XFragmentAdapter.java
+END
+ListItemCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/base/ListItemCallback.java
+END
+SimpleRecAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/base/SimpleRecAdapter.java
+END

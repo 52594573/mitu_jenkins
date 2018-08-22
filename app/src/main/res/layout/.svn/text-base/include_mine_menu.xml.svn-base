@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_promotion"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/my_promotion"
+            android:drawablePadding="@dimen/padding_16"
+            android:drawableStart="@drawable/my_promotion"
+            android:gravity="center"
+            android:text="@string/text_my_promotion"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <TextView
+            android:id="@+id/tv_mine_promotion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableEnd="@drawable/to_see_more"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@drawable/to_see_more"
+            android:gravity="center"
+            android:text="@string/text_apply_promotion"
+            android:textColor="@color/mine_to_see_more_origin"/>
+    </RelativeLayout>
+
+    <include layout="@layout/include_line"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_gifts"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/white_color"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/my_gifts"
+            android:drawablePadding="@dimen/padding_16"
+            android:drawableStart="@drawable/my_gifts"
+            android:gravity="center"
+            android:text="@string/text_my_gifts"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableEnd="@drawable/to_see_more"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@drawable/to_see_more"
+            android:gravity="center"
+            android:textColor="@color/mine_to_see_more_origin"/>
+    </RelativeLayout>
+
+    <include layout="@layout/include_line"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_purse"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/white_color"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/my_purse"
+            android:drawablePadding="@dimen/padding_16"
+            android:drawableStart="@drawable/my_purse"
+            android:gravity="center"
+            android:text="@string/text_my_purse"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableEnd="@drawable/to_see_more"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@drawable/to_see_more"
+            android:gravity="center"
+            android:textColor="@color/mine_to_see_more_origin"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_account"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/account_bind"
+            android:drawablePadding="@dimen/padding_16"
+            android:drawableStart="@drawable/account_bind"
+            android:gravity="center"
+            android:text="@string/text_account_bind"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableEnd="@drawable/to_see_more"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@drawable/to_see_more"
+            android:gravity="center"
+            android:textColor="@color/mine_to_see_more_origin"/>
+    </RelativeLayout>
+
+    <include layout="@layout/include_line"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/white_color"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/account_bind"
+            android:drawablePadding="@dimen/padding_16"
+            android:drawableStart="@drawable/feedback"
+            android:gravity="center"
+            android:text="@string/text_feedback"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableEnd="@drawable/to_see_more"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@drawable/to_see_more"
+            android:gravity="center"
+            android:textColor="@color/mine_to_see_more_origin"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_settings"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/settings"
+            android:drawablePadding="@dimen/padding_16"
+            android:drawableStart="@drawable/settings"
+            android:gravity="center"
+            android:text="@string/text_settings"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableEnd="@drawable/to_see_more"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@drawable/to_see_more"
+            android:gravity="center"
+            android:textColor="@color/mine_to_see_more_origin"/>
+    </RelativeLayout>
+
+    <include layout="@layout/include_line"/>
+</merge>

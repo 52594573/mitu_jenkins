@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin_10"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_header_my_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_10"
+        android:text="@string/text_today_recommend"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/fonts_16"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:layout_marginTop="@dimen/margin_10"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_monkey_king"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginStart="@dimen/margin_16"
+            android:text="[阴阳师] 樱花祭 春樱对决"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/fonts_14"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_header_friends_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_38"
+        android:text="@string/text_friends_game"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/fonts_16"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_game_item_friends_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_18"
+        android:layout_marginTop="@dimen/margin_18"/>
+</LinearLayout>

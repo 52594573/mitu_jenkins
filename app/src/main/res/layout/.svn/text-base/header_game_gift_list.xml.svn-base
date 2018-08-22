@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/text_person_package"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/fonts_16" />
+
+    <cn.droidlover.xrecyclerview.XRecyclerView
+        android:id="@+id/xlv_gift_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        app:recyclerScrollbarNone="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/text_guild_package"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/fonts_16" />
+
+</LinearLayout>

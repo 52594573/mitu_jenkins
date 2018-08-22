@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView
+        android:id="@+id/iv_game_icon"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/game_icon" />
+
+    <TextView
+        android:id="@+id/tv_game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/iv_game_icon"
+        android:text="王者荣耀"
+        android:textColor="@color/main_black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_game_tag"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_alignLeft="@+id/tv_game_name"
+        android:layout_below="@+id/tv_game_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/ptv_game_item_down"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <com.playingjoy.fanrabbit.widget.ProgressTextView
+        android:id="@+id/ptv_game_item_down"
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/start_download"
+        android:drawablePadding="@dimen/padding_2"
+        android:drawableStart="@drawable/start_download"
+        android:gravity="center_vertical"
+        android:text="@string/text_start_download"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/fonts_11"
+        app:progress="100" />
+</RelativeLayout>

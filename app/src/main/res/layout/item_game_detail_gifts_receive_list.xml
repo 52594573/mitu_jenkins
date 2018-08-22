@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_gifts_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_14"
+        tools:text="[王者荣耀]情人节活动礼包" />
+
+    <Button
+        android:id="@+id/btn_receive_number"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_fillet_gifts_btn"
+        android:gravity="center"
+        android:text="@string/receive_number"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_12" />
+
+    <com.playingjoy.fanrabbit.widget.FilletProgressBarView
+        android:id="@+id/pb_last_number_progress"
+        android:layout_width="155dp"
+        android:layout_height="14dp"
+        android:layout_below="@+id/tv_gifts_name"
+        android:layout_marginTop="@dimen/margin_12" />
+
+    <TextView
+        android:id="@+id/tv_predestine_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pb_last_number_progress"
+        android:layout_marginTop="@dimen/margin_12"
+        android:textColor="@color/hint_color"
+        android:textSize="@dimen/fonts_12"
+        tools:text="内容：1 妲己情人节皮肤、安琪拉皮肤\n&#8195;&#8195;&#8195;2 钻石100、铭文10" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/tv_predestine_content"
+        android:layout_marginTop="@dimen/margin_14"
+        android:background="@color/gray_e6" />
+</RelativeLayout>

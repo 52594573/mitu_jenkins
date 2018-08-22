@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/user_info_bg_color"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/include_title_bar" />
+
+    <cn.droidlover.xrecyclerview.XRecyclerView
+        android:id="@+id/xlv_blacklist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btn_relieve"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_color"
+        android:text="@string/text_relieve_blacklist" />
+</LinearLayout>

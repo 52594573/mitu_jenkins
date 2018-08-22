@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro
+END
+proguard-eventbus-3.pro
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-eventbus-3.pro
+END
+proguard-self.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-self.pro
+END
+proguard-picasso.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-picasso.pro
+END
+proguard-okhttp3-logging-interceptor.pro
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-okhttp3-logging-interceptor.pro
+END
+proguard-constraint-layout.pro
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-constraint-layout.pro
+END
+proguard-canary-release.pro
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-canary-release.pro
+END
+proguard-retrofit.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-retrofit.pro
+END
+proguard-rxpermissions.pro
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-rxpermissions.pro
+END
+proguard-google-gson.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-google-gson.pro
+END
+proguard-support-v7-appcompat.pro
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-support-v7-appcompat.pro
+END
+proguard-retrofit-adapter-rxjava.pro
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-retrofit-adapter-rxjava.pro
+END
+proguard-avi-loading.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-avi-loading.pro
+END
+proguard-rxlifecycle.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-rxlifecycle.pro
+END
+proguard-ARecyclerView.pro
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-ARecyclerView.pro
+END
+proguard-butterknife.pro
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-butterknife.pro
+END
+proguard-glide.pro
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-glide.pro
+END
+proguard-rxlifecycle-android.pro
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-rxlifecycle-android.pro
+END
+proguard-support-v4.pro
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-support-v4.pro
+END
+proguard-canary-debug.pro
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-canary-debug.pro
+END
+proguard-design.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-design.pro
+END
+proguard-rxandroid.pro
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-rxandroid.pro
+END
+proguard-rxlifecycle-components.pro
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-rxlifecycle-components.pro
+END
+proguard-recyclerview-v7.pro
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-recyclerview-v7.pro
+END
+proguard-okhttp3.pro
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-okhttp3.pro
+END
+proguard-eventbus.pro
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-eventbus.pro
+END
+proguard-normal.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-normal.pro
+END
+proguard-retrofit-converter-gson.pro
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-retrofit-converter-gson.pro
+END
+proguard-rxjava.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-rxjava.pro
+END
+proguard-proguard-design.pro
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/proguard-pro/proguard-proguard-design.pro
+END

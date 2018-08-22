@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/view_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:text="近三个月加入的成员"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_15" />
+</android.support.constraint.ConstraintLayout>

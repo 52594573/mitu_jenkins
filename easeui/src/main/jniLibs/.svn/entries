@@ -1,0 +1,40 @@
+8
+
+dir
+675
+http://172.16.1.252/svn/platform/trunk/android/FanRabbitApp/easeui/src/main/jniLibs
+http://172.16.1.252/svn/platform
+
+
+
+2018-04-03T02:05:51.939084Z
+543
+lianyanshan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0a198c55-c383-7942-97b8-1e9b43359683
+
+arm64-v8a
+dir
+
+armeabi
+dir
+
+armeabi-v7a
+dir
+
+x86
+dir
+

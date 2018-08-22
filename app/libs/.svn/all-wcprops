@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs
+END
+umeng_social_net.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs/umeng_social_net.jar
+END
+SocialSDK_QQ_Simplify.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs/SocialSDK_QQ_Simplify.jar
+END
+SocialSDK_WeiXin_Full.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs/SocialSDK_WeiXin_Full.jar
+END
+wechat-sdk-android-with-mta-1.1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs/wechat-sdk-android-with-mta-1.1.6.jar
+END
+SocialSDK_Sina_Simplify.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs/SocialSDK_Sina_Simplify.jar
+END
+umeng_social_api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs/umeng_social_api.jar
+END
+umeng_social_tool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs/umeng_social_tool.jar
+END
+umeng-common-1.4.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/libs/umeng-common-1.4.4.jar
+END

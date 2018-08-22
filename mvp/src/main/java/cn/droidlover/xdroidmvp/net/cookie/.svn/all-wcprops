@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/cookie
+END
+CookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/cookie/CookieStore.java
+END
+MemoryCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/cookie/MemoryCookieStore.java
+END
+SerializableHttpCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/cookie/SerializableHttpCookie.java
+END
+CookieJarImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/cookie/CookieJarImpl.java
+END
+PersistentCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/cookie/PersistentCookieStore.java
+END
+HasCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/cookie/HasCookieStore.java
+END

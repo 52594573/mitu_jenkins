@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/547/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net
+END
+IModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/IModel.java
+END
+NetProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/NetProvider.java
+END
+XInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/XInterceptor.java
+END
+Https.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/Https.java
+END
+NetError.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/NetError.java
+END
+RequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/RequestHandler.java
+END
+ApiSubscriber.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/platform/!svn/ver/547/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/ApiSubscriber.java
+END
+XApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/platform/!svn/ver/539/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/XApi.java
+END
+LogInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/net/LogInterceptor.java
+END

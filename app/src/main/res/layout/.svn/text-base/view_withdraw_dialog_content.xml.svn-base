@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="提现金额(元)"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15" />
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_withdraw_value">
+
+            <ImageButton
+                android:id="@+id/ib_amount_minus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:enabled="false"
+                android:src="@drawable/ic_withdraw_minus" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#E6E6E6" />
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="0"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#E6E6E6" />
+
+            <ImageButton
+                android:id="@+id/ib_amount_add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/ic_withdraw_add_p" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/tv_can_withdraw_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/format_can_withdraw_amount"
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/fonts_14" />
+
+        <TextView
+            android:id="@+id/tv_withdraw_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提现最多"
+            android:textColor="@color/yellow_color" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="注：提现金额需要整百"
+        android:textColor="@color/hint_color"
+        android:textSize="13sp" />
+</LinearLayout>

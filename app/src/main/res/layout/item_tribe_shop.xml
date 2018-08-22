@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_18"
+    android:paddingRight="@dimen/padding_18"
+    android:paddingTop="@dimen/padding_14">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_14">
+
+        <ImageView
+            android:id="@+id/iv_tribe_gifts_pic"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:src="@drawable/game_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_14"
+            android:layout_marginStart="@dimen/margin_14"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tribe_gifts_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="【王者荣耀】豪华礼包"
+                android:textColor="@color/main_black"
+                android:textSize="@dimen/fonts_15" />
+
+            <com.playingjoy.fanrabbit.widget.FilletProgressBarView
+                android:id="@+id/pb_tribe_gifts_progress"
+                android:layout_width="160dp"
+                android:layout_height="14dp"
+                android:layout_marginTop="@dimen/margin_14" />
+
+            <TextView
+                android:id="@+id/tv_rush_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_13"
+                tools:text="已淘122123次" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_marginTop="@dimen/margin_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_tribe_gifts_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:text="@string/text_need_cost_contribution"
+                    android:textColor="@color/hint_color"
+                    android:textSize="@dimen/fonts_13" />
+
+                <TextView
+                    android:id="@+id/tv_tribe_gifts_contribution"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_6"
+                    android:layout_marginStart="@dimen/margin_6"
+                    android:layout_toEndOf="@id/tv_tribe_gifts_tips"
+                    android:layout_toRightOf="@id/tv_tribe_gifts_tips"
+                    android:drawableLeft="@drawable/purple_diamond"
+                    android:drawablePadding="@dimen/padding_4"
+                    android:drawableStart="@drawable/purple_diamond"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textColor="@color/purple_diamond"
+                    android:textSize="@dimen/fonts_15" />
+
+                <Button
+                    android:id="@+id/btn_tribe_gifts_get_number"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="52dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bg_fillet_gifts_btn"
+                    android:gravity="center"
+                    android:text="@string/receive_number"
+                    android:textSize="@dimen/fonts_12" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/include_line" />
+
+
+</LinearLayout>

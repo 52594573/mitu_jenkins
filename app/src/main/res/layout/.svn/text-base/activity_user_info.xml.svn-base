@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/user_info_bg_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:paddingEnd="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_16"
+        android:paddingRight="@dimen/padding_16"
+        android:paddingStart="@dimen/padding_16">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/text_avatar"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15"/>
+
+
+        <ImageView
+            android:id="@+id/iv_user_info_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:src="@drawable/to_see_more"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user_info_pic"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_user_info_more"
+            android:layout_toStartOf="@id/iv_user_info_more"
+            android:src="@drawable/temp_pic"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_16"
+        android:paddingRight="@dimen/padding_16"
+        android:paddingStart="@dimen/padding_16">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_nickname"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <TextView
+                android:id="@+id/tv_user_info_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:drawableEnd="@drawable/to_see_more"
+                android:drawablePadding="@dimen/padding_10"
+                android:drawableRight="@drawable/to_see_more"
+                android:gravity="center"
+                android:text="@string/text_def_nickname"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_15"/>
+        </RelativeLayout>
+
+        <include layout="@layout/include_line"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_sex"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <TextView
+                android:id="@+id/tv_user_info_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:drawableEnd="@drawable/to_see_more"
+                android:drawablePadding="@dimen/padding_10"
+                android:drawableRight="@drawable/to_see_more"
+                android:gravity="center"
+                android:text="@string/text_please_select"
+                android:textColor="@color/border_color"
+                android:textSize="@dimen/fonts_15"/>
+        </RelativeLayout>
+
+        <include layout="@layout/include_line"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_birthday"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <TextView
+                android:id="@+id/tv_user_info_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:drawableEnd="@drawable/to_see_more"
+                android:drawablePadding="@dimen/padding_10"
+                android:drawableRight="@drawable/to_see_more"
+                android:gravity="center"
+                android:text="@string/text_please_select"
+                android:textColor="@color/border_color"
+                android:textSize="@dimen/fonts_15"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_16"
+        android:paddingRight="@dimen/padding_16"
+        android:paddingStart="@dimen/padding_16">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/text_desc"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_15"/>
+
+        <TextView
+            android:id="@+id/tv_user_info_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableEnd="@drawable/to_see_more"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@drawable/to_see_more"
+            android:gravity="center"
+            android:text="@string/text_please_select"
+            android:textColor="@color/border_color"
+            android:textSize="@dimen/fonts_15"/>
+    </RelativeLayout>
+</LinearLayout>

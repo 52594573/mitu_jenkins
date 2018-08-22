@@ -1,0 +1,791 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/res/layout
+END
+activity_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/platform/!svn/ver/518/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_search.xml
+END
+item_my_game_played.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/544/trunk/android/FanRabbitApp/app/src/main/res/layout/item_my_game_played.xml
+END
+activity_my_group_chat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/495/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_my_group_chat.xml
+END
+header_invite_all.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/res/layout/header_invite_all.xml
+END
+item_tribe_blacklist_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/res/layout/item_tribe_blacklist_list.xml
+END
+activity_my_friend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_my_friend.xml
+END
+fragment_mine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/603/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_mine.xml
+END
+include_index_title_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/492/trunk/android/FanRabbitApp/app/src/main/res/layout/include_index_title_bar.xml
+END
+item_transfer_tribe_member_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/res/layout/item_transfer_tribe_member_list.xml
+END
+view_gifts_detail_dialog_container_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/platform/!svn/ver/563/trunk/android/FanRabbitApp/app/src/main/res/layout/view_gifts_detail_dialog_container_text.xml
+END
+view_error.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/src/main/res/layout/view_error.xml
+END
+fragment_game_tribe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/518/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_game_tribe.xml
+END
+item_tribe_corps_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/item_tribe_corps_list.xml
+END
+item_comment_replay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/522/trunk/android/FanRabbitApp/app/src/main/res/layout/item_comment_replay.xml
+END
+item_select_game_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/item_select_game_list.xml
+END
+include_mine_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/res/layout/include_mine_menu.xml
+END
+activity_my_game.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/platform/!svn/ver/522/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_my_game.xml
+END
+include_index_recommend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/res/layout/include_index_recommend.xml
+END
+view_gifts_detail_dialog_container_predestine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/platform/!svn/ver/563/trunk/android/FanRabbitApp/app/src/main/res/layout/view_gifts_detail_dialog_container_predestine.xml
+END
+item_game_tag.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/498/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_tag.xml
+END
+item_search_result_user_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/item_search_result_user_list.xml
+END
+activity_my_purse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_my_purse.xml
+END
+activity_simple_recycler.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_simple_recycler.xml
+END
+item_search_recommend_tribe_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/499/trunk/android/FanRabbitApp/app/src/main/res/layout/item_search_recommend_tribe_list.xml
+END
+fragment_tribe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_tribe.xml
+END
+header_message_center.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/495/trunk/android/FanRabbitApp/app/src/main/res/layout/header_message_center.xml
+END
+header_tribe_added_records.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/res/layout/header_tribe_added_records.xml
+END
+umeng_socialize_oauth_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/src/main/res/layout/umeng_socialize_oauth_dialog.xml
+END
+header_tribe_member_management.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/res/layout/header_tribe_member_management.xml
+END
+view_gifts_detail_dialog_container_receive.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/platform/!svn/ver/608/trunk/android/FanRabbitApp/app/src/main/res/layout/view_gifts_detail_dialog_container_receive.xml
+END
+fragment_my_game_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/509/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_my_game_list.xml
+END
+activity_my_task.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_my_task.xml
+END
+activity_transfer_tribe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_transfer_tribe.xml
+END
+activity_my_radish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_my_radish.xml
+END
+fragment_recommend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/484/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_recommend.xml
+END
+activity_game_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/547/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_game_detail.xml
+END
+activity_apply_promoter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/582/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_apply_promoter.xml
+END
+activity_my_coin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_my_coin.xml
+END
+header_search_page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/499/trunk/android/FanRabbitApp/app/src/main/res/layout/header_search_page.xml
+END
+diaog_share_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/635/trunk/android/FanRabbitApp/app/src/main/res/layout/diaog_share_layout.xml
+END
+activity_tribe_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_tribe_shop.xml
+END
+item_invite_member_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/res/layout/item_invite_member_list.xml
+END
+activity_tribe_blacklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_tribe_blacklist.xml
+END
+item_index_ranking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/522/trunk/android/FanRabbitApp/app/src/main/res/layout/item_index_ranking.xml
+END
+item_search_recommend_game_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/499/trunk/android/FanRabbitApp/app/src/main/res/layout/item_search_recommend_game_list.xml
+END
+dialog_select_pic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/558/trunk/android/FanRabbitApp/app/src/main/res/layout/dialog_select_pic.xml
+END
+item_game_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platform/!svn/ver/603/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_list.xml
+END
+header_select_game.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/header_select_game.xml
+END
+header_game_detail_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/platform/!svn/ver/500/trunk/android/FanRabbitApp/app/src/main/res/layout/header_game_detail_fragment.xml
+END
+item_search_history.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/499/trunk/android/FanRabbitApp/app/src/main/res/layout/item_search_history.xml
+END
+activity_big_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/635/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_big_image.xml
+END
+activity_add_friend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_add_friend.xml
+END
+item_game_index_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/539/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_index_list.xml
+END
+activtity_account_binding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/res/layout/activtity_account_binding.xml
+END
+fragment_game_gift.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/518/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_game_gift.xml
+END
+item_game_detail_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/platform/!svn/ver/522/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_detail_comment.xml
+END
+header_game_gift_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/518/trunk/android/FanRabbitApp/app/src/main/res/layout/header_game_gift_list.xml
+END
+activity_feedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_feedback.xml
+END
+item_new_friends_apply.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/509/trunk/android/FanRabbitApp/app/src/main/res/layout/item_new_friends_apply.xml
+END
+view_withdraw_dialog_content.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/res/layout/view_withdraw_dialog_content.xml
+END
+item_transaction_record_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/res/layout/item_transaction_record_list.xml
+END
+item_gifts_detail_recommend_games_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/platform/!svn/ver/531/trunk/android/FanRabbitApp/app/src/main/res/layout/item_gifts_detail_recommend_games_list.xml
+END
+item_search_result_tribe_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/item_search_result_tribe_list.xml
+END
+item_tribe_develoipment_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/item_tribe_develoipment_list.xml
+END
+activity_webview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_webview.xml
+END
+fragment_search_result_simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_search_result_simple.xml
+END
+item_message_my_un_read.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/492/trunk/android/FanRabbitApp/app/src/main/res/layout/item_message_my_un_read.xml
+END
+fragment_game_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/500/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_game_detail.xml
+END
+dialog_simple_no_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/521/trunk/android/FanRabbitApp/app/src/main/res/layout/dialog_simple_no_title.xml
+END
+activity_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_register.xml
+END
+activity_tribe_simple_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_tribe_simple_search.xml
+END
+item_share_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/522/trunk/android/FanRabbitApp/app/src/main/res/layout/item_share_dialog.xml
+END
+include_title_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/res/layout/include_title_bar.xml
+END
+view_game_gifts_list_empty_tip.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/platform/!svn/ver/531/trunk/android/FanRabbitApp/app/src/main/res/layout/view_game_gifts_list_empty_tip.xml
+END
+item_message_group_un_read.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/platform/!svn/ver/495/trunk/android/FanRabbitApp/app/src/main/res/layout/item_message_group_un_read.xml
+END
+include_game_detail_bottom_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/521/trunk/android/FanRabbitApp/app/src/main/res/layout/include_game_detail_bottom_menu.xml
+END
+item_my_gload_recharge_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/res/layout/item_my_gload_recharge_list.xml
+END
+activity_invite_some_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_invite_some_one.xml
+END
+view_game_detail_tribe_empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/531/trunk/android/FanRabbitApp/app/src/main/res/layout/view_game_detail_tribe_empty.xml
+END
+activity_search_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_search_result.xml
+END
+dialog_gifts_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/531/trunk/android/FanRabbitApp/app/src/main/res/layout/dialog_gifts_detail.xml
+END
+item_tribe_member_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/item_tribe_member_list.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_main.xml
+END
+item_message_friends_un_read.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/492/trunk/android/FanRabbitApp/app/src/main/res/layout/item_message_friends_un_read.xml
+END
+item_down_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platform/!svn/ver/466/trunk/android/FanRabbitApp/app/src/main/res/layout/item_down_list.xml
+END
+item_my_task_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/item_my_task_list.xml
+END
+activity_user_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/562/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_user_info.xml
+END
+item_game_list_friends.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/484/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_list_friends.xml
+END
+item_game_detail_gifts_predestine_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_detail_gifts_predestine_list.xml
+END
+activity_my_game_gifts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_my_game_gifts.xml
+END
+item_game_detail_gifts_rush_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_detail_gifts_rush_list.xml
+END
+activity_gifts_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_gifts_detail.xml
+END
+fragment_my_gifts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/603/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_my_gifts.xml
+END
+activity_tribe_added_records.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_tribe_added_records.xml
+END
+view_update_have_update_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/res/layout/view_update_have_update_dialog.xml
+END
+activity_share_friends.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_share_friends.xml
+END
+activity_tribe_member_management.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_tribe_member_management.xml
+END
+view_friends_empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/493/trunk/android/FanRabbitApp/app/src/main/res/layout/view_friends_empty.xml
+END
+item_tribe_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/platform/!svn/ver/563/trunk/android/FanRabbitApp/app/src/main/res/layout/item_tribe_shop.xml
+END
+ppw_game_detail_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/518/trunk/android/FanRabbitApp/app/src/main/res/layout/ppw_game_detail_comment.xml
+END
+head_transfer_tribe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/res/layout/head_transfer_tribe.xml
+END
+item_game_list_liker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/484/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_list_liker.xml
+END
+item_my_gifts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/res/layout/item_my_gifts.xml
+END
+view_update_no_update_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/res/layout/view_update_no_update_dialog.xml
+END
+view_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/app/src/main/res/layout/view_loading.xml
+END
+include_tribe_titlebar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/include_tribe_titlebar.xml
+END
+fragment_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platform/!svn/ver/544/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_index.xml
+END
+item_my_game_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/522/trunk/android/FanRabbitApp/app/src/main/res/layout/item_my_game_list.xml
+END
+activity_select_game.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_select_game.xml
+END
+header_game_index_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/res/layout/header_game_index_list.xml
+END
+view_game_tag.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/view_game_tag.xml
+END
+dialog_no_promotion_auth_tip.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/521/trunk/android/FanRabbitApp/app/src/main/res/layout/dialog_no_promotion_auth_tip.xml
+END
+include_line.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/platform/!svn/ver/484/trunk/android/FanRabbitApp/app/src/main/res/layout/include_line.xml
+END
+activity_create_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_create_group.xml
+END
+fragment_big_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/635/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_big_image.xml
+END
+fragment_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/466/trunk/android/FanRabbitApp/app/src/main/res/layout/fragment_list.xml
+END
+activity_tribe_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_tribe_detail.xml
+END
+view_empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/platform/!svn/ver/518/trunk/android/FanRabbitApp/app/src/main/res/layout/view_empty.xml
+END
+item_search_result_game_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/res/layout/item_search_result_game_list.xml
+END
+activity_chat_friend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_chat_friend.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_login.xml
+END
+item_group_chat_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/495/trunk/android/FanRabbitApp/app/src/main/res/layout/item_group_chat_list.xml
+END
+item_my_friend_lis.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/app/src/main/res/layout/item_my_friend_lis.xml
+END
+item_game_detail_gifts_receive_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/res/layout/item_game_detail_gifts_receive_list.xml
+END
+dialog_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platform/!svn/ver/537/trunk/android/FanRabbitApp/app/src/main/res/layout/dialog_loading.xml
+END
+activity_modify_desc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/558/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_modify_desc.xml
+END
+activity_new_friends.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/492/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_new_friends.xml
+END
+activity_center_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platform/!svn/ver/492/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_center_message.xml
+END
+item_tribe_game_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/res/layout/item_tribe_game_list.xml
+END
+activity_modify_nick_name.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/platform/!svn/ver/558/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_modify_nick_name.xml
+END
+activity_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/res/layout/activity_settings.xml
+END

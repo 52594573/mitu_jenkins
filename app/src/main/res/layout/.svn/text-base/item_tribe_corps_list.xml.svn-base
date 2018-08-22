@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <ImageView
+            android:id="@+id/iv_corps_pic"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_monkey_king" />
+
+        <TextView
+            android:id="@+id/tv_corps_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_toEndOf="@id/iv_corps_pic"
+            android:layout_toRightOf="@id/iv_corps_pic"
+            android:gravity="center"
+            android:text="王者荣耀"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/fonts_15" />
+
+        <TextView
+            android:id="@+id/tv_corps_online_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_toEndOf="@id/tv_corps_name"
+            android:layout_toRightOf="@id/tv_corps_name"
+            android:text="81"
+            android:textColor="@color/yellow_color"
+            android:textSize="@dimen/fonts_12" />\
+
+        <TextView
+            android:id="@+id/tv_corps_all_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/tv_corps_online_num"
+            android:layout_toRightOf="@id/tv_corps_online_num"
+            android:text="/92"
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/fonts_12" />
+
+        <ImageView
+            android:id="@+id/iv_corps_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/padding_10"
+            android:src="@drawable/to_see_more" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_line"/>
+</LinearLayout>

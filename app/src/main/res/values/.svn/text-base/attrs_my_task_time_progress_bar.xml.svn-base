@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="MyTaskTimeProgressBar">
+        <attr name="topTextColor" format="color" />
+        <attr name="topTextHintColor" format="color" />
+        <attr name="mProgressBgColor" format="color" />
+        <attr name="mProgressColor" format="color" />
+        <attr name="topTextSize" format="dimension" />
+        <attr name="maxValue" format="integer" />
+        <attr name="curValue" format="integer" />
+    </declare-styleable>
+</resources>

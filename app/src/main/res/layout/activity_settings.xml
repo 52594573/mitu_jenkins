@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/user_info_bg_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_16"
+        android:paddingRight="@dimen/padding_16"
+        android:paddingStart="@dimen/padding_16">
+
+        <RelativeLayout
+            android:id="@+id/rl_settings_notification"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_notification_button"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <Switch
+                android:id="@+id/sw_settings_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:thumb="@drawable/switch_circle_round"
+                android:track="@drawable/thumb"/>
+        </RelativeLayout>
+
+        <include layout="@layout/include_line"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_settings_share"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_share_app"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/to_see_more"
+                android:thumb="@drawable/switch_circle"
+                android:track="@drawable/thumb"/>
+        </RelativeLayout>
+
+        <include layout="@layout/include_line"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_settings_check"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_check_update"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/to_see_more"
+                android:thumb="@drawable/switch_circle"
+                android:track="@drawable/thumb"/>
+        </RelativeLayout>
+
+        <include layout="@layout/include_line"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_settings_about"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_about_us"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/to_see_more"
+                android:thumb="@drawable/switch_circle"
+                android:track="@drawable/thumb"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_settings_logout"
+        android:background="@color/white_color"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="@string/text_logout"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_10"
+        android:textSize="@dimen/fonts_15"
+        android:textColor="@color/second_color"
+        />
+</LinearLayout>

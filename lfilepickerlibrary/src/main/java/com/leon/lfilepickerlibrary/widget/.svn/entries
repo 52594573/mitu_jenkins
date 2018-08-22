@@ -1,0 +1,41 @@
+8
+
+dir
+675
+http://172.16.1.252/svn/platform/trunk/android/FanRabbitApp/lfilepickerlibrary/src/main/java/com/leon/lfilepickerlibrary/widget
+http://172.16.1.252/svn/platform
+
+
+
+2018-04-03T11:31:03.104039Z
+546
+lianyanshan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0a198c55-c383-7942-97b8-1e9b43359683
+
+EmptyRecyclerView.java
+file
+
+
+
+
+2018-04-19T08:05:08.961000Z
+7ddd58b29de94d5d8636f304afd00490
+2018-04-03T11:31:03.104039Z
+546
+lianyanshan
+has-props
+

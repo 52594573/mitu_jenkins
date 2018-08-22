@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/mine
+END
+MyTaskListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/mine/MyTaskListAdapter.java
+END
+MyGiftsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/platform/!svn/ver/638/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/mine/MyGiftsAdapter.java
+END
+MineGamePlayedAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/platform/!svn/ver/544/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/mine/MineGamePlayedAdapter.java
+END
+MyFriendListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/mine/MyFriendListAdapter.java
+END
+MyGlodRechargeListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/mine/MyGlodRechargeListAdapter.java
+END
+TransactionRecordListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/mine/TransactionRecordListAdapter.java
+END
+MyGameAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/platform/!svn/ver/519/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/mine/MyGameAdapter.java
+END

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/right_refuse_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@color/white_color"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/game_icon" />
+
+        <LinearLayout
+            android:id="@+id/ll_user_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="@dimen/margin_14"
+            android:layout_toRightOf="@+id/iv_avatar"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="帅哥"
+                android:textColor="@color/main_black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_user_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/level_bg"
+                android:paddingLeft="@dimen/padding_4"
+                android:paddingRight="@dimen/padding_4"
+                android:text="LV3"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/fonts_10" />
+
+            <ImageView
+                android:id="@+id/iv_user_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/ic_is_boy" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_user_info"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="@dimen/margin_14"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/iv_avatar"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="我是为了公会的会长,欢迎大家加入我的公会"
+            android:textColor="@color/hint_color"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="填写验证信息"
+            android:textColor="@color/second_color"
+            android:textSize="15sp" />
+
+        <include layout="@layout/include_line" />
+
+        <EditText
+            android:id="@+id/et_apply_info"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:gravity="top"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/hint_color"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备注昵称"
+            android:textColor="@color/second_color"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_remark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="给好友备注昵称"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

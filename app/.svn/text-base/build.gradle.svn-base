@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+android {
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 26
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        applicationId "com.playingjoy.fanrabbit"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    signingConfigs {
+        debug {
+            storeFile file('Platform.jks')
+            storePassword "catplay"
+            keyAlias "catplay"
+            keyPassword "catplay"
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+    dexOptions {
+        jumboMode true
+    }
+}
+greendao {
+    schemaVersion 1
+    daoPackage 'com.playingjoy.fanrabbit.gen'
+    targetGenDir 'src/main/java'
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    compile 'com.android.support:multidex:1.0.3'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile rootProject.ext.dependencies["avi-loading"]
+    implementation project(':mvp')
+    annotationProcessor rootProject.ext.dependencies["butterknife-apt"]
+    implementation 'com.ashokvarma.android:bottom-navigation-bar:1.4.1'
+    compile 'com.liulishuo.filedownloader:library:1.7.2'
+    implementation files('libs/SocialSDK_QQ_Simplify.jar')
+    implementation files('libs/SocialSDK_Sina_Simplify.jar')
+    implementation files('libs/SocialSDK_WeiXin_Full.jar')
+    implementation files('libs/umeng-common-1.4.4.jar')
+    implementation files('libs/umeng_social_api.jar')
+    implementation files('libs/umeng_social_net.jar')
+    implementation files('libs/umeng_social_tool.jar')
+    implementation files('libs/wechat-sdk-android-with-mta-1.1.6.jar')
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-support-v4:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-design:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.0.0'
+    implementation 'com.bigkoo:convenientbanner:2.0.5'
+    compile 'com.github.1002326270xc:LayoutManager-FlowLayout:v1.6'
+    implementation 'jp.wasabeef:glide-transformations:3.1.1'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.contrarywind:Android-PickerView:4.1.2'
+    implementation project(':easeui')
+    implementation 'com.github.chrisbanes:PhotoView:1.3.0'
+    compile 'org.greenrobot:greendao:3.2.2'
+    // add library
+    compile 'com.github.lovetuzitong:MultiImageSelector:1.2'
+    implementation 'net.zetetic:android-database-sqlcipher:3.5.7@aar'
+}

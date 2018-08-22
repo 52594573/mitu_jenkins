@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_tip_create_tribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_50"
+        android:text="@string/text_empty_tribe_tip"
+        android:textColor="@color/hint_color"
+        android:textSize="@dimen/fonts_14" />
+
+    <TextView
+        android:id="@+id/tv_create_tribe"
+        android:layout_width="82dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="@dimen/margin_38"
+        android:background="@drawable/bg_btn_main_color_stroke_radius_5"
+        android:gravity="center"
+        android:text="@string/text_create_tribe"
+        android:textColor="@color/yellow_color"
+        android:textSize="@dimen/fonts_14" />
+</LinearLayout>

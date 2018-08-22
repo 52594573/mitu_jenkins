@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color">
+
+    <include layout="@layout/include_title_bar" />
+
+    <TextView
+        android:id="@+id/tv_radish_last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:drawableLeft="@drawable/ic_my_purse_radish"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/text_radish_last"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_16" />
+
+    <TextView
+        android:id="@+id/tv_radish_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_radish_last"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginTop="15dp"
+        android:text="999"
+        android:textColor="@color/main_black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_radish_value"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/tv_radish_value"
+        android:text="个"
+        android:textColor="@color/hint_color"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_withdraw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_fillet_gifts_btn"
+        android:text="@string/text_withdraw" />
+</RelativeLayout>

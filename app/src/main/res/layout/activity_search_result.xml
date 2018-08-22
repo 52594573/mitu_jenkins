@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/main_color"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="@dimen/padding_16"
+            android:paddingRight="@dimen/padding_16"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_30"
+            android:layout_marginRight="@dimen/margin_30"
+            android:layout_toEndOf="@+id/ib_back"
+            android:layout_toRightOf="@+id/ib_back"
+            android:background="@drawable/bg_search_edit"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10"
+            android:singleLine="true"
+            android:textSize="@dimen/fonts_14" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/main_black"
+        app:tabTextColor="@color/hint_color">
+
+    </android.support.design.widget.TabLayout>
+
+    <include layout="@layout/include_line" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

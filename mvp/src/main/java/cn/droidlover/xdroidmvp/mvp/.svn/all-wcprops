@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp
+END
+IView.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/IView.java
+END
+VDelegateBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/VDelegateBase.java
+END
+XLazyFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/XLazyFragment.java
+END
+VDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/VDelegate.java
+END
+XFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/XFragment.java
+END
+XActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/473/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/XActivity.java
+END
+LazyFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/LazyFragment.java
+END
+XPresent.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/539/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/XPresent.java
+END
+IPresent.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/459/trunk/android/FanRabbitApp/mvp/src/main/java/cn/droidlover/xdroidmvp/mvp/IPresent.java
+END

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white_color"
+            android:paddingEnd="@dimen/padding_20"
+            android:paddingLeft="@dimen/padding_20"
+            android:paddingRight="@dimen/padding_20"
+            android:paddingStart="@dimen/padding_20">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/text_real_name"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/fonts_15"/>
+
+                <EditText
+                    android:id="@+id/et_apply_real_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@null"
+                    android:hint="@string/text_please_input_real_name"
+                    android:textColor="@color/hint_color"
+                    android:textColorHint="@color/right_delete_color"
+                    android:textSize="@dimen/fonts_15"/>
+            </RelativeLayout>
+
+            <include layout="@layout/include_line"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/text_card_number"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/fonts_15"/>
+
+                <EditText
+                    android:id="@+id/et_apply_card_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@null"
+                    android:hint="@string/text_please_input_card_number"
+                    android:textColor="@color/hint_color"
+                    android:textColorHint="@color/right_delete_color"
+                    android:textSize="@dimen/fonts_15"/>
+            </RelativeLayout>
+
+            <include layout="@layout/include_line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_22"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/text_upload_card_photo"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/fonts_15"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_positive_negative"
+                    android:textColor="@color/hint_color"
+                    android:textSize="@dimen/fonts_14"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_22"
+                android:text="@string/text_card_number_tips"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_11"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:layout_marginTop="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/margin_8"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_card_upload"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_apply_positive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_26"
+                        android:src="@drawable/card_positive"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_apply_positive"
+                        android:layout_marginTop="@dimen/margin_14"
+                        android:gravity="center"
+                        android:text="@string/text_upload_positive"
+                        android:textColor="@color/hint_color"
+                        android:textSize="@dimen/fonts_12"/>
+
+                    <ImageView
+                        android:layout_margin="@dimen/margin_10"
+                        android:id="@+id/iv_apply_positive_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:layout_marginStart="@dimen/margin_8"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_card_upload"
+                    android:gravity="center"
+                    android:layerType="software"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_apply_negative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_26"
+                        android:src="@drawable/card_negative"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_apply_negative"
+                        android:layout_marginTop="@dimen/margin_14"
+                        android:gravity="center"
+                        android:text="@string/text_upload_negative"
+                        android:textColor="@color/hint_color"
+                        android:textSize="@dimen/fonts_12"/>
+
+                    <ImageView
+                        android:layout_margin="@dimen/margin_10"
+                        android:id="@+id/iv_apply_negative_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_32"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_select_pay_type"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/fonts_15"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_pay_tips"
+                    android:textColor="@color/hint_color"
+                    android:textSize="@dimen/fonts_14"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+
+                <CheckBox
+                    android:id="@+id/cb_apply_wechat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/sl_cb_check_pay_type"
+                    android:drawablePadding="@dimen/padding_10"
+                    android:drawableStart="@drawable/sl_cb_check_pay_type"
+                    android:gravity="center"
+                    android:text="@string/text_wechat_account"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/fonts_15"/>
+
+                <EditText
+                    android:id="@+id/et_apply_wechat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@null"
+                    android:hint="@string/text_please_input_wechat_account"
+                    android:textColor="@color/hint_color"
+                    android:textColorHint="@color/right_delete_color"
+                    android:textSize="@dimen/fonts_15"/>
+            </RelativeLayout>
+
+            <include layout="@layout/include_line"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+
+                <CheckBox
+                    android:id="@+id/cb_apply_ali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/sl_cb_check_pay_type"
+                    android:drawablePadding="@dimen/padding_10"
+                    android:drawableStart="@drawable/sl_cb_check_pay_type"
+                    android:gravity="center"
+                    android:text="@string/text_ali_account"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/fonts_15"/>
+
+                <EditText
+                    android:id="@+id/et_apply_ali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@null"
+                    android:hint="@string/text_please_input_ali_account"
+                    android:textColor="@color/hint_color"
+                    android:textColorHint="@color/right_delete_color"
+                    android:textSize="@dimen/fonts_15"/>
+            </RelativeLayout>
+
+            <include layout="@layout/include_line"/>
+
+            <TextView
+                android:drawablePadding="@dimen/padding_6"
+                android:drawableLeft="@drawable/exclamation_mark"
+                android:drawableStart="@drawable/exclamation_mark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="51dp"
+                android:text="@string/text_check_tips"
+                android:textColor="@color/yellow_color"
+                android:textSize="@dimen/fonts_11"/>
+
+            <TextView
+                android:id="@+id/tv_apply_submit"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginBottom="@dimen/margin_40"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/bg_fillet_submit"
+                android:gravity="center"
+                android:text="@string/text_submit"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

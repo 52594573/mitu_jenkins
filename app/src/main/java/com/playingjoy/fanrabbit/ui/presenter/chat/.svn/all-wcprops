@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/chat
+END
+AddFriendPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/chat/AddFriendPresenter.java
+END
+ChatFriendPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/chat/ChatFriendPresenter.java
+END

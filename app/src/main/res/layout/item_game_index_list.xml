@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_marginTop="@dimen/margin_10"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_10">
+
+        <ImageView
+            android:id="@+id/iv_game_item_pic"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/game_icon"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_6"
+            android:layout_marginStart="@dimen/margin_6"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_game_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_4"
+                android:layout_marginStart="@dimen/margin_4"
+                android:lines="1"
+                android:text="王者农药"
+                android:textColor="@color/main_black"
+                android:textSize="@dimen/fonts_15"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_game_item_type_one"
+                    style="@style/game_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MOBA"/>
+
+                <TextView
+                    android:id="@+id/tv_game_item_type_two"
+                    style="@style/game_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="热血对战"/>
+
+                <TextView
+                    android:id="@+id/tv_game_item_type_three"
+                    style="@style/game_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MOBA"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.playingjoy.fanrabbit.widget.ProgressTextView
+            android:id="@+id/ptv_game_item_down"
+            android:layout_width="72dp"
+            android:layout_height="27dp"
+            app:progress="100"
+            android:drawableLeft="@drawable/start_download"
+            android:drawablePadding="@dimen/padding_2"
+            android:drawableStart="@drawable/start_download"
+            android:gravity="center_vertical"
+            android:text="@string/text_start_download"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/fonts_11"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_game_item_big_pic"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_monkey_king"/>
+
+    <TextView
+        android:id="@+id/tv_game_item_big_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_16"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/margin_4"
+        android:lines="3"
+        android:text="《王者荣耀》是腾讯第一5V5英雄公平对战手游，于10月28日开启不限号测试！5V5王者峡谷（含迷雾模式）、5V5深渊大乱斗、以及3V3、1V1等多样模式一键体验，热血竞技尽享快感！海量英雄随心选择，精妙配合默契作战！"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_14"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_game_item_like_man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_30"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_10"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:background="@color/border_color"/>
+
+        <TextView
+            android:id="@+id/tv_game_item_like_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:drawableLeft="@drawable/red_like"
+            android:drawablePadding="@dimen/padding_4"
+            android:drawableStart="@drawable/red_like"
+            android:text="198人喜欢"
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/fonts_12"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:background="@color/border_color"/>
+    </LinearLayout>
+</LinearLayout>

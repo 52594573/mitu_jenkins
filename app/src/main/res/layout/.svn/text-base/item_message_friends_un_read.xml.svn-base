@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_8"
+    android:layout_marginStart="@dimen/margin_8"
+    android:layout_marginRight="@dimen/margin_8"
+    android:layout_marginEnd="@dimen/margin_8"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_un_read_pic"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:src="@drawable/game_icon"/>
+
+        <TextView
+            android:id="@+id/tv_un_read_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/pink_circle"
+            android:text="12"
+            android:gravity="center"
+            android:textColor="@color/red_color"
+            android:textSize="@dimen/fonts_10"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_un_read_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_6"
+        android:gravity="center"
+        android:text="龙猫"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_10"/>
+</LinearLayout>

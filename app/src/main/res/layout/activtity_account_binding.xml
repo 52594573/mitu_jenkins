@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/user_info_bg_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_16"
+        android:paddingRight="@dimen/padding_16"
+        android:paddingStart="@dimen/padding_16">
+
+        <RelativeLayout
+            android:id="@+id/rl_account_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_phone"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <TextView
+                android:id="@+id/tv_account_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableEnd="@drawable/to_see_more"
+                android:drawablePadding="@dimen/padding_10"
+                android:drawableRight="@drawable/to_see_more"
+                android:textColor="@color/yellow_color"
+                android:textSize="@dimen/fonts_14"/>
+        </RelativeLayout>
+
+        <include layout="@layout/include_line"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_account_wechat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_wechat_account"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <TextView
+                android:id="@+id/tv_account_wechat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableEnd="@drawable/to_see_more"
+                android:drawablePadding="@dimen/padding_10"
+                android:drawableRight="@drawable/to_see_more"
+                android:textColor="@color/yellow_color"
+                android:textSize="@dimen/fonts_14"/>
+        </RelativeLayout>
+
+        <include layout="@layout/include_line"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_account_sina"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_sina_account"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <TextView
+                android:id="@+id/tv_account_sina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableEnd="@drawable/to_see_more"
+                android:drawablePadding="@dimen/padding_10"
+                android:drawableRight="@drawable/to_see_more"
+                android:textColor="@color/yellow_color"
+                android:textSize="@dimen/fonts_14"/>
+        </RelativeLayout>
+
+        <include layout="@layout/include_line"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_account_qq"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/text_qq_account"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15"/>
+
+            <TextView
+                android:id="@+id/tv_account_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableEnd="@drawable/to_see_more"
+                android:drawablePadding="@dimen/padding_10"
+                android:drawableRight="@drawable/to_see_more"
+                android:text="@string/text_is_bind"
+                android:textColor="@color/yellow_color"
+                android:textSize="@dimen/fonts_14"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

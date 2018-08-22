@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine
+END
+UserInfoPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/UserInfoPresenter.java
+END
+BigImagePresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/BigImagePresenter.java
+END
+MyCoinPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/MyCoinPresenter.java
+END
+CoinAndRadishRecordPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/CoinAndRadishRecordPresenter.java
+END
+ApplyPromoterPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/ApplyPromoterPresenter.java
+END
+FeedbackPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/platform/!svn/ver/597/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/FeedbackPresenter.java
+END
+ModifyNickNamePresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/platform/!svn/ver/558/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/ModifyNickNamePresenter.java
+END
+CoinAndRadishExplanationPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/CoinAndRadishExplanationPresenter.java
+END
+AccountBindPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/AccountBindPresenter.java
+END
+MyGiftPackagePresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/MyGiftPackagePresenter.java
+END
+MyFriendPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/MyFriendPresenter.java
+END
+AboutUsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/AboutUsPresenter.java
+END
+ModifyDescPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/platform/!svn/ver/558/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/ModifyDescPresenter.java
+END
+SettingPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/platform/!svn/ver/581/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/SettingPresenter.java
+END
+MyTaskPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/MyTaskPresenter.java
+END
+MyPursePresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/MyPursePresenter.java
+END
+MinePresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/platform/!svn/ver/544/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/MinePresenter.java
+END
+MyRadishPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/platform/!svn/ver/598/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/MyRadishPresenter.java
+END
+MyGiftsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/platform/!svn/ver/555/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/presenter/mine/MyGiftsPresenter.java
+END

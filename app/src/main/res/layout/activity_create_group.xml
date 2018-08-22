@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/user_info_bg_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_16"
+        android:paddingRight="@dimen/padding_16"
+        android:paddingStart="@dimen/padding_16">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <EditText
+                android:id="@+id/et_create_group_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/text_input_group_name"
+                android:maxLength="15"
+                android:textColor="@color/second_color"
+                android:textColorHint="@color/hint_color"
+                android:textSize="@dimen/fonts_15" />
+
+            <TextView
+                android:id="@+id/tv_create_group_max_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="/15"
+                android:layout_marginLeft="@dimen/margin_2"
+                android:layout_marginStart="@dimen/margin_2"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_12" />
+
+            <TextView
+                android:id="@+id/tv_create_group_constraint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_create_group_max_num"
+                android:text="0"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_12" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/include_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_create_game_type"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:id="@+id/tv_create_game_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/text_select_the_game_type"
+                android:textColor="@color/second_color"
+                android:textColorHint="@color/hint_color"
+                android:textSize="@dimen/fonts_15" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/to_see_more" />
+        </RelativeLayout>
+
+        <include layout="@layout/include_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:id="@+id/tv_add_check_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:text="@string/text_verification_tips"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15" />
+
+            <TextView
+                android:id="@+id/tv_add_check_tips_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_add_check_tips"
+                android:layout_marginTop="@dimen/margin_4"
+                android:text="@string/text_verification_tips_desc"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_12" />
+
+            <Switch
+                android:id="@+id/sw_create_verification_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:thumb="@drawable/switch_circle_round"
+                android:track="@drawable/thumb" />
+        </RelativeLayout>
+
+        <include layout="@layout/include_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:id="@+id/tv_add_chairman_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:text="@string/text_chairman_model"
+                android:textColor="@color/second_color"
+                android:textSize="@dimen/fonts_15" />
+
+            <TextView
+                android:id="@+id/tv_add_chairman_tips_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_add_chairman_tips"
+                android:layout_marginTop="@dimen/margin_4"
+                android:text="@string/text_chairman_model_desc"
+                android:textColor="@color/hint_color"
+                android:textSize="@dimen/fonts_12" />
+
+            <Switch
+                android:id="@+id/sw_create_chairman_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:thumb="@drawable/switch_circle_round"
+                android:track="@drawable/thumb" />
+        </RelativeLayout>
+
+        <include layout="@layout/include_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_create_invite"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/text_invite_some"
+                android:textColorHint="@color/second_color"
+                android:textSize="@dimen/fonts_15" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/to_see_more" />
+        </RelativeLayout>
+
+        <include layout="@layout/include_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/tv_create_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/text_create"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/fonts_15" />
+    </LinearLayout>
+</LinearLayout>

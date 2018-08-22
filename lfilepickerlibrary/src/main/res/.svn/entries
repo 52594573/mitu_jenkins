@@ -1,0 +1,55 @@
+8
+
+dir
+675
+http://172.16.1.252/svn/platform/trunk/android/FanRabbitApp/lfilepickerlibrary/src/main/res
+http://172.16.1.252/svn/platform
+
+
+
+2018-04-08T08:48:58.346663Z
+563
+lianyanshan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0a198c55-c383-7942-97b8-1e9b43359683
+
+drawable
+dir
+
+drawable-v21
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+menu
+dir
+
+mipmap-xhdpi
+dir
+
+values
+dir
+
+values-w820dp
+dir
+
+values-zh
+dir
+

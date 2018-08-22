@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86
+END
+libhyphenate_av.so
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86/libhyphenate_av.so
+END
+liblocSDK7.so
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86/liblocSDK7.so
+END
+libhyphenate_av_recorder.so
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86/libhyphenate_av_recorder.so
+END
+libBaiduMapSDK_base_v4_0_0.so
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86/libBaiduMapSDK_base_v4_0_0.so
+END
+libBaiduMapSDK_util_v4_0_0.so
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86/libBaiduMapSDK_util_v4_0_0.so
+END
+libsqlite.so
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86/libsqlite.so
+END
+libBaiduMapSDK_map_v4_0_0.so
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86/libBaiduMapSDK_map_v4_0_0.so
+END
+libhyphenate.so
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/platform/!svn/ver/543/trunk/android/FanRabbitApp/easeui/src/main/jniLibs/x86/libhyphenate.so
+END

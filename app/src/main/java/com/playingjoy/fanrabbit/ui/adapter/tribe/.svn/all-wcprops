@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/tribe
+END
+InviteMemberListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/tribe/InviteMemberListAdapter.java
+END
+TribeShopAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/platform/!svn/ver/563/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/tribe/TribeShopAdapter.java
+END
+ShareFriendsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/platform/!svn/ver/675/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/tribe/ShareFriendsActivity.java
+END
+TransferTribeMemberListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/tribe/TransferTribeMemberListAdapter.java
+END
+SelectGameAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/platform/!svn/ver/655/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/tribe/SelectGameAdapter.java
+END
+TribeAddedRecordsListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/platform/!svn/ver/649/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/tribe/TribeAddedRecordsListAdapter.java
+END

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_18">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/text_search_history"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/fonts_16" />
+
+        <ImageButton
+            android:id="@+id/ib_search_history_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/ic_search_del" />
+    </RelativeLayout>
+
+    <com.library.flowlayout.NestedRecyclerView
+        android:id="@+id/rlv_search_history_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:overScrollMode="never" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_18"
+        android:text="@string/text_recommend_game"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/fonts_16" />
+
+    <cn.droidlover.xrecyclerview.XRecyclerView
+        android:id="@+id/rlv_recommend_game_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_18"
+        android:text="@string/text_recommend_tribe"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/fonts_16" />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/padding_16"
+    android:paddingLeft="@dimen/padding_16"
+    android:paddingRight="@dimen/padding_16"
+    android:paddingStart="@dimen/padding_16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingTop="@dimen/padding_16">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_new_friends"
+            android:textColor="@color/second_color"
+            android:textSize="@dimen/fonts_16"/>
+
+        <LinearLayout
+            android:id="@+id/ll_message_new_friends"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/smile"
+                android:drawablePadding="@dimen/padding_2"
+                android:drawableStart="@drawable/smile"
+                android:gravity="center"
+                android:text="@string/text_has_new_friends"
+                android:textColor="#f33738"
+                android:textSize="@dimen/fonts_14"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginStart="@dimen/margin_10"
+                android:src="@drawable/to_see_more"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/include_line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingTop="@dimen/padding_16"
+        android:text="@string/text_my_friends"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_16"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_message_friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"/>
+
+    <include layout="@layout/include_line"/>
+
+    <TextView
+        android:id="@+id/tv_message_my_group"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/to_see_more"
+        android:drawableEnd="@drawable/to_see_more"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingTop="@dimen/padding_16"
+        android:text="@string/text_my_chat_group"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_16"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_message_group_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_my_message"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_16"/>
+</LinearLayout>

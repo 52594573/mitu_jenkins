@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#F7F7F7"
+              android:layout_marginTop="@dimen/margin_2"
+              android:layout_marginBottom="@dimen/margin_2"
+              android:orientation="horizontal"
+              android:paddingBottom="@dimen/padding_8"
+              android:paddingEnd="@dimen/padding_12"
+              android:paddingLeft="@dimen/padding_12"
+              android:paddingRight="@dimen/padding_12"
+              android:paddingStart="@dimen/padding_12"
+              android:paddingTop="@dimen/padding_8">
+
+    <TextView
+        android:id="@+id/tv_replay_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="梁婷"
+        android:textColor="@color/yellow_color"
+        android:textSize="@dimen/fonts_14"/>
+
+    <TextView
+        android:id="@+id/tv_replay_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="：我们一起玩吧"
+        android:textColor="@color/second_color"
+        android:textSize="@dimen/fonts_14"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/adapter
+END
+EaseConversationAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseConversationAdapter.java
+END
+EaseContactAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseContactAdapter.java
+END
+EmojiconGridAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/adapter/EmojiconGridAdapter.java
+END
+EmojiconPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/adapter/EmojiconPagerAdapter.java
+END
+EaseMessageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseMessageAdapter.java
+END
+EaseExpressionPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/platform/!svn/ver/540/trunk/android/FanRabbitApp/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseExpressionPagerAdapter.java
+END

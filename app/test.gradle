@@ -1,0 +1,147 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.antfortune.freeline'
+apply plugin: 'org.greenrobot.greendao'
+
+// libs仓库
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+// 三方依赖
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    compile 'com.android.support:multidex:1.0.3'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile rootProject.ext.dependencies["avi-loading"]
+    implementation project(':mvp')
+    annotationProcessor rootProject.ext.dependencies["butterknife-apt"]
+    implementation 'com.ashokvarma.android:bottom-navigation-bar:1.4.1'
+    compile 'com.liulishuo.filedownloader:library:1.7.2'
+    implementation files('libs/SocialSDK_QQ_Simplify.jar')
+    implementation files('libs/SocialSDK_Sina_Simplify.jar')
+    implementation files('libs/SocialSDK_WeiXin_Full.jar')
+    implementation files('libs/umeng-common-1.4.4.jar')
+    implementation files('libs/umeng_social_api.jar')
+    implementation files('libs/umeng_social_net.jar')
+    implementation files('libs/umeng_social_tool.jar')
+    implementation files('libs/wechat-sdk-android-with-mta-1.1.6.jar')
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-support-v4:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-design:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.0.0'
+    implementation 'com.bigkoo:convenientbanner:2.0.5'
+    compile 'com.github.1002326270xc:LayoutManager-FlowLayout:v1.6'
+    implementation 'jp.wasabeef:glide-transformations:3.1.1'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.contrarywind:Android-PickerView:4.1.2'
+    implementation project(':easeui')
+    implementation 'com.github.chrisbanes:PhotoView:1.3.0'
+    compile 'org.greenrobot:greendao:3.2.2' // add library
+}
+// 获取jks路径
+def getMyStoreFile(){
+    if("true".equals(IS_JENKINS)){
+        return file('/opt/catplay.jks')
+    }else{
+        return file('Platform.jks')
+    }
+}
+// 配置打包jks信息
+android {
+    signingConfigs {
+        release {
+            keyAlias 'catplay'
+            keyPassword 'catplay'
+            storeFile getMyStoreFile()
+            storePassword 'catplay'
+        }
+    }
+// 设置compileSdkVersion
+    compileSdkVersion 26
+// 设置buildToolsVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+// dex分包
+    dexOptions {
+        jumboMode true
+    }
+// 版本信息
+    defaultConfig {
+        applicationId "com.playingjoy.fanrabbit"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+// 适配cpu类型
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a"
+        }
+
+    }
+// 是否混淆 是否移除多余资源文件 选择哪个版本的签名文件  选择哪个混淆配置文件
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            shrinkResources true
+            minifyEnabled true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+// 支持java8
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            //新名字
+            def newName
+            //输出文件夹
+            def outDirectory
+            //是否为Jenkins打包，输出路径不同
+            if ("true".equals(IS_JENKINS)) {
+                //BUILD_PATH为服务器输出路径
+                outDirectory = BUILD_PATH
+                newName = "你的app名字" + "-" + defaultConfig.versionName + "-" + BUILD_TYPE + ".apk"
+            } else {
+                outDirectory = output.outputFile.getParent()
+                newName = "你的app名字" + "-" + defaultConfig.versionName + "-" + BUILD_TYPE + ".apk"
+            }
+            output.outputFile = new File(outDirectory, newName)
+        }
+    }
+    flavorDimensions("channel")
+    productFlavors {
+        yingyongbao { dimension "channel" }
+    }
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [CHANNEL_VALUE: name]
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/rxjava.properties'
+    }
+
+}

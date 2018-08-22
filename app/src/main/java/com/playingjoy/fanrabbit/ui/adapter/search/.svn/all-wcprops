@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/search
+END
+RecommendTribeListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/platform/!svn/ver/499/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/search/RecommendTribeListAdapter.java
+END
+SearchResultGameListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/search/SearchResultGameListAdapter.java
+END
+SearchResultTribeListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/search/SearchResultTribeListAdapter.java
+END
+SearchHistoryListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/search/SearchHistoryListAdapter.java
+END
+RecommendGameListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/platform/!svn/ver/499/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/search/RecommendGameListAdapter.java
+END
+SearchResultUserListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/platform/!svn/ver/583/trunk/android/FanRabbitApp/app/src/main/java/com/playingjoy/fanrabbit/ui/adapter/search/SearchResultUserListAdapter.java
+END
